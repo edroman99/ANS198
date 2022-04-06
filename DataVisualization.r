@@ -1,0 +1,30 @@
+getwd()
+setwd("/Users/emilyroman/Desktop/ANS198")
+list.files()
+dogs = readRDS("dogs_full (1).rds")
+ncol(dogs)
+nrow(dogs)
+dim(dogs)
+colnames(dogs)
+rownames(dogs)
+str(dogs)
+head(dogs)
+head(dogs,10)
+tail(dogs)
+summary(dogs)
+?mean
+?median
+?sd
+?var
+mean(dogs)
+mean(height)
+dogs$height
+mean(dogs$height)
+dogs$height
+mean(dogs$height, na.rm = TRUE)
+table(dogs$group)
+dogs$group
+dogs[1,1]
+dogs[1,10]
+dogs[10,2]
+dogs[10,]
